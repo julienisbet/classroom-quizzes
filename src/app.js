@@ -53,3 +53,11 @@ const getAnswer = function(e){
 answers.forEach(e =>{
     e.addEventListener('click', getAnswer);
 });
+
+const reset = document.getElementById('reset');
+reset.addEventListener('click', ()=>{
+    answers.forEach(elem=>{
+        elem.classList.remove('revealed');
+        elem.innerText = '';
+    });
+});
