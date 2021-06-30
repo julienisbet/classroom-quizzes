@@ -19,7 +19,14 @@ a > 10 || b > 10
 `,
     `let a = 5;
 let b = 10;
-!(a > 10 || b > 10)`
+!(a > 10 || b > 10)`,
+    `!0`,
+    `!""`,
+    `!!{}`,
+    `!{}`,
+    `![]`,
+    `!![]`,
+    `!!42`,
 ];
 const table = document.querySelector('table');
 questions.forEach(jsCode =>{
