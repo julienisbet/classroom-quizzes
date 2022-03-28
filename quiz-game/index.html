@@ -6,18 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Quiz Game</title>
         <link rel="stylesheet" href="quiz.css" />
+        <link rel="stylesheet" href="../styles/prism.css" />
     </head>
     <body>
         <h1>Alchemy Quiz Game!</h1>
         <section id="rules">
             <h2>Rules</h2>
             <ul>
-                <li>Each team member must answer at most one question</li>
-                <li>If you get the answer right on your own, you get 2 points for your team</li>
-                <li>You may phone a friend and get 1 point for your team</li>
+                <li>Each team member must answer one question</li>
+                <li>If you get the answer right on your own, you get 2 points for your team.</li>
+                <li>
+                    You may "phone a friend" (i.e. ask your teammates) and get 1 point for your
+                    team.
+                </li>
                 <li>
                     If you get it wrong, the opposite team can "steal" for 1 point but if you get it
-                    wrong on the steal you lose a point
+                    wrong on the steal you lose a point.
+                </li>
+                <li>
+                    You must decide before the question is revealed which team member is going to be
+                    answering the question.
                 </li>
             </ul>
         </section>
@@ -28,5 +36,6 @@
         </section>
         <section id="questions"></section>
     </body>
+    <script src="../src/prism.js"></script>
     <script src="./quiz-game.js" type="module"></script>
 </html>
