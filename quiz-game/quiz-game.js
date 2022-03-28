@@ -44,7 +44,7 @@ for (let topic of questions) {
         }
         const front = document.createElement('div');
         front.classList.add('front');
-        front.textContent = 'Question';
+        front.textContent = `Question ${q.id}`;
         container.append(front, div);
         topicDiv.append(container);
     }
