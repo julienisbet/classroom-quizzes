@@ -1,0 +1,17 @@
+#teams {
+    display: flex;
+    flex-direction: row;
+}
+
+.team {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px;
+}

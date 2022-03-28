@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="quiz.css" />
+    </head>
+    <body>
+        <h1>Alchemy Quiz Game!</h1>
+        <section id="rules">
+            <h2>Rules</h2>
+            <ul>
+                <li>Each team member must answer at most one question</li>
+                <li>If you get the answer right on your own, you get 2 points for your team</li>
+                <li>You may phone a friend and get 1 point for your team</li>
+                <li>
+                    If you get it wrong, the opposite team can "steal" for 1 point but if you get it
+                    wrong on the steal you lose a point
+                </li>
+            </ul>
+        </section>
+        <section id="scoring">
+            <input type="text" id="team-input" />
+            <button id="team-button">New Team</button>
+            <div id="teams"></div>
+        </section>
+        <section id="questions"></section>
+    </body>
+    <script src="./quiz-game.js" type="module"></script>
+</html>
