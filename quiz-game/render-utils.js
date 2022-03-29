@@ -23,7 +23,7 @@ export function renderTeamDiv(team) {
         decrementScore(team.id);
         renderTeams();
     });
-    controls.append(button, removePoint);
+    controls.append(removePoint, button);
 
     div.append(h3, score, controls);
     return div;
