@@ -11,4 +11,5 @@ For each logical operator, guess whether it will return true or false -- click o
 * [MDN Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 
 ## Javascript / React / Supabase Group Quiz
+https://julienisbet.github.io/classroom-quizzes/quiz-game
 A group quiz that allows students to work together to get answers and find areas of "fuzziness" for further study.
